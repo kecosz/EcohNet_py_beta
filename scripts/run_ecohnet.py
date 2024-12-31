@@ -63,7 +63,7 @@ if __name__ == "__main__":
     assert not out_fpath.exists()
 
     tu = time.time()
-    rcc, rcprd, rcmat, rw = RCall(std(datk), (0.95, 0.95, 0.001, 8), seed=SEED, rep=REP)
+    rcc, rcprd, rcmat, rw = RCall(std(datk), (0.95, 0.995, 0.1, 8), seed=SEED, rep=REP)
     rcall = (rcc, rcprd, rcmat, rw, datk)
 
     print(f"elapsed time of RCall: {time.time() - tu}")
