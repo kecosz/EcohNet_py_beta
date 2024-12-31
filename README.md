@@ -1,6 +1,5 @@
-# Caution  
-In this version, some issues in EcohNet v0.12 have been addressed, but the behavior will differ from what is described
-in the paper. In the future, a newer version will be released as an formal update.　　
+*In this version, some issues in EcohNet v0.12 have been addressed, but the behavior will differ from what is described
+in the paper. In the future, a newer version will be released as an formal update.*  
 
 # Python version of EcohNet
 ## What
